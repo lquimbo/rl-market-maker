@@ -20,20 +20,7 @@ limit‑order book and maximise P&L while controlling inventory risk.
 git clone https://github.com/lquimbo/rl-market-maker.git
 conda env create -f environment.yml     # env file WIP
 python src/agent_training_stub.py
-
-### code stubs
-
-Open a new file **`src\lob_env_stub.py`** :
-
-```python
-"""
-Gym‑compatible limit‑order‑book environment (stub).
-Todo by 30 Jul 2025:
-  • state: top‑5 bid/ask levels + inventory
-  • actions: ±2‑tick skew
-  • reward: realized spread − κ * inventory²
-"""
-
+    
 class LobEnv:
     def __init__(self):
         pass
