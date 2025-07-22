@@ -26,3 +26,4 @@ plt.ylabel("PnL")
 plt.show()
 
 plt.savefig("docs/baseline_equity_curve.png", dpi=150, bbox_inches="tight")
+print("Plot saved to docs/baseline_equity_curve.png")
