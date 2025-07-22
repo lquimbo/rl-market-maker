@@ -1,0 +1,11 @@
+name: rlmm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - gymnasium
+  - pip
+  - pip:
+      - stable-baselines3
