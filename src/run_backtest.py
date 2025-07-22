@@ -1,4 +1,3 @@
-import gymnasium as gym
 from lob_env import LobEnv
 from baseline_agent import FixedSpreadAgent
 import numpy as np
@@ -25,3 +24,5 @@ plt.title("Baseline equity curve")
 plt.xlabel("Step")
 plt.ylabel("PnL")
 plt.show()
+
+plt.savefig("docs/baseline_equity_curve.png", dpi=150, bbox_inches="tight")
